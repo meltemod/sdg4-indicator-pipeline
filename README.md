@@ -263,3 +263,16 @@ oversights.
 - **UIS footnotes (`*_METADATA.csv`) are not used.** Only magnitude and
   qualifier codes reach the workbook.
 - **Naming:** `00-setup.R` uses a hyphen, the pipeline steps use underscores.
+
+---
+
+## 7. Development process
+
+The initial build of this pipeline used AI coding tools (Claude Code) as a
+development accelerator. Every script then went through line-by-line code
+review and revision by the author: checking logic against UIS documentation,
+verifying that validation rules match the data structure, confirming that
+number formats and chart specifications produce the intended output, and
+rewriting sections where the generated code did not match the design intent.
+Architecture decisions, validation logic, configuration design, and the
+mapping of UIS indicator semantics to workbook structure are the author's.
