@@ -1,0 +1,27 @@
+[project]
+name = "sdg4_indicator_pipeline"
+version = "0.1.0"
+description = "Reproducible R pipeline that downloads SDG 4 education indicators from the UNESCO Institute for Statistics, validates country submissions against consistency rules, and generates formatted Excel workbooks with programmatic column headers, color coding, and number formatting. Built as a workflow demonstration for multi-country education data processing."
+authors = [
+    { name = "Meltem Odabaş", email = "me@meltemodabas.net" },
+]
+
+# Compatibility floor for the resolver. Deliberately looser than the exact
+# interpreter pinned in .python-version — they do different jobs.
+requires-python = ">=3.12"
+
+# Declare dependencies here; uv.lock records the exact resolved versions.
+# Edit this list, never uv.lock.
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "ruff>=0.6",
+]
+
+[tool.uv]
+# A set of scripts, not an installable library.
+package = false
+
+[tool.ruff]
+line-length = 100

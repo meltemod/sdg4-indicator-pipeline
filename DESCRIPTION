@@ -1,0 +1,18 @@
+Package: sdg4.indicator.pipeline
+Type: Project
+Title: sdg4-indicator-pipeline
+Version: 0.1.0
+Author: Meltem Odabaş
+Maintainer: Meltem Odabaş <me@meltemodabas.net>
+Encoding: UTF-8
+Description: Declares this project's R package dependencies. renv is
+    configured with snapshot type "explicit", so renv.lock records exactly
+    what is declared here rather than whatever renv can infer from library()
+    calls in the code. Add packages under an Imports: field below, one per
+    line and comma-separated, then re-run scripts/00-setup.R. For example:
+    Imports:
+        tidyverse,
+        here,
+        yaml
+Depends:
+    R (>= 4.6)
