@@ -56,6 +56,24 @@ apply_theme <- function(g, legend) {
     legend_position = legend)
 }
 
+# Excel auto-skips category labels when it thinks they are crowded, so with
+# ~150 countries every other name disappears even though every bar is drawn.
+# mschart has no option for this, so set <c:tickLblSkip val="1"/> (show every
+# label) on the category axis of the most recently added chart. Elements are
+# inserted in the order the OOXML schema requires after <c:crosses>.
+force_every_category_label <- function(wb) {
+  i <- nrow(wb$charts)
+  x <- wb$charts$chart[i]
+  if (!grepl("<c:tickLblSkip", x, fixed = TRUE)) {
+    x <- sub("</c:catAx>",
+             paste0('<c:auto val="1"/><c:lblAlgn val="ctr"/><c:lblOffset val="100"/>',
+                    '<c:tickLblSkip val="1"/><c:noMultiLvlLbl val="0"/></c:catAx>'),
+             x, fixed = TRUE)
+    wb$charts$chart[i] <- x
+  }
+  wb
+}
+
 argb <- function(hex) wb_color(hex = paste0("FF", toupper(sub("^#", "", hex))))
 flag_colors <- vapply(cfg$validation$flag_colors, identity, character(1))
 HEADER_FILL <- "#1F3864"
@@ -211,11 +229,13 @@ for (v in names(cfg$views)) {
     g <- chart_ax_x(g, rotation = -90)
     g <- chart_ax_y(g, num_fmt = numfmt_for(cmet$unit))
     g <- apply_theme(g, legend = "n")
-    # Wide enough that every country label fits.
-    width_cols <- max(15L, ceiling(nrow(cd) / 5))
+    # Wide enough for one 8pt rotated label per bar (~14 px each; a default
+    # column is ~64 px), plus room for the y axis.
+    width_cols <- max(15L, ceiling(nrow(cd) * 14 / 64) + 3L)
     wb$add_mschart("Chart", dims = paste0(wb_dims(tbl_row, 5), ":",
                                           wb_dims(tbl_row + 34, 4 + width_cols)),
                    graph = g)
+    wb <- force_every_category_label(wb)
   } else {
     cd <- filter(d, indicator_id == ci) |>
       select(geo_name, year, value) |>
