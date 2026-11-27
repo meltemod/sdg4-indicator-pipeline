@@ -2,24 +2,25 @@
 
 Reproducible R pipeline that downloads SDG 4 education indicators from the UNESCO Institute for Statistics, validates country submissions against consistency rules, and generates formatted Excel workbooks with programmatic column headers, color coding, and number formatting. Built as a workflow demonstration for multi-country education data processing.
 
-> **Status: scaffolding.** The environment (renv, uv, config) is set up and
-> the three pipeline steps below are designed, but not yet written.
+> **Status: working.** The pipeline reproduces three UIS Data Browser views as
+> Excel workbooks with native, editable charts (see [Views](#views)).
 
 ## Pipeline at a glance
 
 ```
-UIS API / CSV ──► 01_download.R ──► 02_validate.R ──► 03_excel_output.R ──► formatted .xlsx
-                   data/raw/          data/interim/        outputs/tables/
+UIS bulk CSV ──► 01_download.R ──► 02_validate.R ──► 03_excel_output.R ──► formatted .xlsx
+(BDDS zips)       data/raw/          data/interim/       outputs/tables/
+                  data/interim/      data/processed/
 ```
 
 | Step | Script | What it does | Reads | Writes |
 |---|---|---|---|---|
-| 1 | `01_download.R` | Fetches SDG 4 indicators from the UIS API, or loads a local CSV export when the API is unavailable | `config.yml` (indicators, countries, years), `.env` (API key if any) | `data/raw/` |
-| 2 | `02_validate.R` | Runs consistency checks and flags missing data, per country and indicator | `data/raw/` | `data/interim/` (validated data + flag table) |
-| 3 | `03_excel_output.R` | Builds formatted Excel workbooks with `openxlsx`: programmatic column headers, colour coding for flagged values, number formatting | `data/interim/` | `outputs/tables/*.xlsx` |
+| 1 | `01_download.R` | Downloads the UIS bulk-data zips for the pinned release (cached) and extracts the indicators the views need | `config.yml` (`bdds`, `views`) | `data/raw/<release>/`, `data/interim/indicators_long.csv` |
+| 2 | `02_validate.R` | Selects each view's countries/regions and years, runs consistency checks, flags problems. Never drops or alters data | `data/interim/indicators_long.csv` | `data/processed/<view>.csv`, `data/interim/flags.csv` |
+| 3 | `03_excel_output.R` | Builds one workbook per view with `openxlsx2` + `mschart`: headers from UIS labels, number formats by unit, flagged cells coloured, native Excel chart | `data/processed/`, `data/interim/flags.csv` | `outputs/tables/<view>.xlsx` |
 
 Each step reads only what the previous step wrote, so any step can be re-run
-on its own without repeating the ones before it.
+on its own. Changing only titles, sorting or colours? Re-run step 3 alone.
 
 ---
 
@@ -46,6 +47,9 @@ uv sync                                   # creates .venv from pyproject.toml
 
 Both may already have been run for you by the template's post-generation hook.
 
+R packages used by the pipeline (declared in `DESCRIPTION`): `readr`, `dplyr`,
+`tidyr`, `yaml`, `openxlsx2`, `mschart`, `officer`.
+
 ## 3. Repository layout
 
 ```
@@ -62,9 +66,9 @@ Both may already have been run for you by the template's post-generation hook.
 │
 ├── scripts/                Numbered pipeline steps; extension = language
 │   ├── 00-setup.R          One-time environment bootstrap (renv)
-│   ├── 01_download.R       API / CSV → data/raw/            (planned)
-│   ├── 02_validate.R       Consistency checks, missing flags (planned)
-│   └── 03_excel_output.R   openxlsx → outputs/tables/       (planned)
+│   ├── 01_download.R       UIS bulk zips → indicators_long.csv
+│   ├── 02_validate.R       Per-view selection, checks, flags
+│   └── 03_excel_output.R   openxlsx2 + mschart → outputs/tables/
 │
 ├── data/
 │   ├── raw/                Source data. GITIGNORED.
@@ -73,7 +77,7 @@ Both may already have been run for you by the template's post-generation hook.
 │
 ├── outputs/
 │   ├── figures/            COMMITTED
-│   └── tables/             COMMITTED
+│   └── tables/             COMMITTED (the .xlsx workbooks)
 │
 ├── reports/                Quarto / R Markdown documents
 └── docs/                   Background notes, data dictionaries
@@ -84,67 +88,96 @@ Both may already have been run for you by the template's post-generation hook.
 Run the steps in order from the project root:
 
 ```bash
-Rscript scripts/01_download.R      # 1. fetch indicators  → data/raw/
-Rscript scripts/02_validate.R      # 2. check and flag    → data/interim/
+Rscript scripts/01_download.R      # 1. fetch + extract   → data/raw/, data/interim/
+Rscript scripts/02_validate.R      # 2. check and flag    → data/processed/, data/interim/flags.csv
 Rscript scripts/03_excel_output.R  # 3. build workbooks   → outputs/tables/
 ```
 
 Scripts assume the **project root** as the working directory. Running R from
 elsewhere means `.Rprofile` is never read and `.env` will not be loaded.
 
+The first run downloads ~100 MB (two zips) and takes a minute or so. Later
+runs reuse the cached zips and work offline.
+
+### Views
+
+Each entry under `views:` in `config.yml` becomes one workbook. The three
+current views replicate these UIS Data Browser pages:
+
+| Workbook | Indicators | Geography / years | Chart |
+|---|---|---|---|
+| `out_of_school.xlsx` | Out-of-school rate, primary / lower secondary / upper secondary (`ROFST.1.CP`, `ROFST.2.CP`, `ROFST.3.CP`) | All countries; latest value 2015–2026 | Bar, primary, sorted high → low |
+| `completion_parity.xlsx` | Completion rate, adjusted rural/urban parity index, three levels (`CR.1.LPIA`, `CR.2.LPIA`, `CR.3.LPIA`) | All countries; latest value 2015–2026 | Bar, lower secondary |
+| `adult_literacy.xlsx` | Adult literacy rate 15+ (`LR.AG15T99`), adult illiterate population 15+ (`ILLPOP.AG15T99`) | SDG regions: World, Sub-Saharan Africa, Central and Southern Asia; 2010–2022 | Line, illiterate population |
+
 ### Step 1 — `01_download.R`: get the data
 
-- **Primary source:** the UIS Data API. Indicator codes, country list and the
-  year range (`period.start_year` to `period.end_year` in `config.yml`) drive
-  the request.
-- **Fallback:** a CSV export downloaded by hand from the UIS data browser and
-  placed in `data/raw/`. Use it when the API is down, rate-limited, or when you
-  need to reproduce a run from a fixed snapshot.
-- Raw responses are saved unchanged, so every later step can be re-run without
-  hitting the API again.
-- Any API key goes in `.env` (see `.env.example`), never in `config.yml`.
+- **Source:** the UIS Bulk Data Download Service (BDDS). One zip per dataset:
+  `SDG` (SDG 4 indicators) and `OPRI` (other policy-relevant indicators, where
+  `ILLPOP.AG15T99` lives). The release is pinned in `config.yml` (`bdds.release`).
+- Each indicator is mapped to its dataset automatically from the `*_LABEL.csv`
+  files. Only the data files a view needs are read.
+- The large `*_METADATA.csv` footnote files are not extracted.
+- Output: `data/interim/indicators_long.csv`, one row per indicator ×
+  country/region × year, with the UIS label, magnitude and qualifier.
 
 ### Step 2 — `02_validate.R`: consistency checks and missing-data flags
 
-Data is **flagged, not dropped.** Each check adds a row to a flag table rather
-than altering values, so a reviewer can see exactly what was raised and why.
-Typical checks:
+Data is **flagged, not dropped.** Each check adds a row to
+`data/interim/flags.csv` (`view, indicator_id, geo_code, geo_name, year, check,
+severity, detail`) instead of changing values.
 
-- **Missing data:** country × indicator × year combinations with no value.
-- **Range checks:** rates and percentages outside 0–100.
-- **Internal consistency:** e.g. sex-disaggregated values that do not bracket
-  the total, or a gender parity index that does not match its components.
-- **Time-series breaks:** year-on-year changes large enough to suggest a
-  revision or a reporting error.
-- **Duplicates:** more than one value for the same key.
+| Check | Severity | Rule |
+|---|---|---|
+| `missing` | missing | No value for a country/region (and year, for time series) that the view covers |
+| `duplicate` | error | More than one row for the same indicator × geography × year |
+| `range_0_100` | error | A rate (`(%)` in the UIS label) below 0 or above 100 |
+| `parity_out_of_bounds` | error | An adjusted parity index outside [0, 2], the bounds it has by construction |
+| `count_invalid` | error | A count (`(number)`) that is negative or not a whole number |
+| `yoy_jump` | warning | Time series only: a year-on-year change above `validation.max_yoy_change_pct` |
+| `low_reliability`, `nil_or_na` | info | UIS magnitude notes (`LOWREL`, `NIL`, `NA`) |
 
-Outputs: the validated dataset and the flag table, both in `data/interim/`.
+Units are inferred from the UIS label, so a new indicator gets the right checks
+without code changes.
 
 ### Step 3 — `03_excel_output.R`: formatted workbooks
 
-Uses `openxlsx` to write workbooks to `outputs/tables/`, with:
+One workbook per view, four sheets:
 
-- column headers generated from the indicator metadata rather than typed by hand;
-- colour coding driven by the flag table from step 2, so flagged cells stand out;
-- number formats set per indicator (percentages, ratios, counts);
-- a sheet listing every flag, for the reviewer.
+- **Chart:** the chart's source table (sorted as plotted) and a **native Excel
+  chart that reads those cells**. Edit a number and the chart updates.
+- **Data:** every indicator in the view. Headers come from the UIS labels;
+  each indicator gets Value / Year / UIS-note columns. Number formats depend on
+  the unit (`0.0` rates, `0.00` parity indices, `#,##0` counts). Flagged
+  cells are coloured. Frozen header, auto-filter.
+- **Flags:** every flag for the view, colour-coded by severity.
+- **About:** source, data release, run time, git commit, `config.yml` MD5,
+  colour legend.
 
-### Adding the R packages these steps need
+### Changing a workbook: edit config, not Excel
 
-Dependencies are declared in `DESCRIPTION`, not inferred from `library()` calls
-(renv runs in `explicit` snapshot mode). Before writing the steps, add the
-packages they use, for example:
+The workbooks are **build outputs**. Manual edits are overwritten on the next
+run, and once a file has been edited by hand the code can no longer
+reproduce it. Make every requested change in `config.yml` and re-run:
 
-```
-Imports:
-    httr2,
-    readr,
-    dplyr,
-    yaml,
-    openxlsx
-```
+| Request | Edit in `config.yml` |
+|---|---|
+| Different chart title | `views.<view>.chart.title` |
+| Sort bars the other way | `views.<view>.chart.sort` (`desc` / `asc` / `none`) |
+| Chart a different level | `views.<view>.chart.indicator` |
+| Bar colour | `views.<view>.chart.color` |
+| Y-axis label | `views.<view>.chart.y_label` (optional) |
+| Other regions | `views.<view>.geo.regions` (spelled exactly as in `SDG_REGION.csv`) |
+| Different years | `views.<view>.years.from` / `.to` |
+| A new view | add a new block under `views:` |
 
-then re-run `Rscript scripts/00-setup.R` and commit the updated `renv.lock`.
+Changing only presentation (title, sort, colour) needs just step 3.
+Changing indicators, geography or years needs steps 2 and 3; new indicators
+need step 1 as well.
+
+Leadership can still try things out in Excel (resize, recolour, filter).
+Once they settle on a change, it goes back into `config.yml` so the next
+run keeps it.
 
 ---
 
@@ -156,20 +189,40 @@ then a subsection below it if the choice needs more than a line.
 
 | # | Decision | Rationale in brief |
 |---|---|---|
-|   |          |                    |
+| 1 | UIS bulk CSV (BDDS), not the Data API | Versioned releases make runs reproducible; no key; API docs could not be confirmed |
+| 2 | Native Excel charts (`openxlsx2` + `mschart`), not images | Leadership needs to adjust charts; native charts follow their cells |
+| 3 | `config.yml` is the source of truth; workbooks are build outputs | Manual edits break reproducibility, so requests become config changes |
+| 4 | Flag, never drop | Reviewers see every issue; data is never silently altered |
+| 5 | Parity check = bounds [0, 2], not a "plausible" band | Low adjusted parity is real inequality, not bad data |
 
-<!--
-### Decision 1 — <short title>
+### Decision 2 — native Excel charts
 
-**Chosen:** what was done.
+**Chosen:** `openxlsx2` with `mschart`, so each chart is a real Excel chart
+whose series point at worksheet cells.
 
-**Rejected:** the main alternative.
+**Rejected:** `openxlsx` with ggplot2 images inserted into the workbook.
 
-**Why.** The reasoning, including anything non-obvious that would otherwise
-be rediscovered the hard way.
+**Why.** Leadership regularly asks for changes to the files. An image can only
+be replaced, while a native chart can be restyled in Excel and updates when
+its cells change. `openxlsx2` is the maintained successor to `openxlsx`.
 
-**Cost.** What this trade-off gives up. Every real decision has one.
--->
+**Cost.** Less control over chart styling than ggplot2, and LibreOffice/Numbers
+render some details slightly differently from Excel.
+
+### Decision 5 — parity-index check
+
+**Chosen:** flag adjusted location parity indices (LPIA) only when they fall
+outside [0, 2].
+
+**Rejected:** a "plausible range" such as [0.2, 2], which an early version used.
+
+**Why.** UIS's *adjusted* parity index is bounded to [0, 2] by construction.
+Values like 0.005 (Central African Republic, upper secondary) show extreme
+rural disadvantage, which is the finding, not an error. Flagging them would
+teach reviewers to ignore flags.
+
+**Cost.** A genuinely mis-entered value that happens to fall inside the bounds
+is not caught by this check.
 
 ---
 
@@ -178,5 +231,15 @@ be rediscovered the hard way.
 Things carried forward deliberately, so they read as choices rather than
 oversights.
 
-- Nothing recorded yet.
-
+- **No API path yet.** Data comes only from the bulk CSV. The UIS Data API
+  could be added to `01_download.R` as an alternative source.
+- **"Latest year" is not cross-checked against the Data Browser default.**
+  The country bar charts use the latest value from 2015 onwards; the browser's
+  default year range has not been confirmed to match. For example, Equatorial
+  Guinea's out-of-school rate is from 2015.
+- **Bar charts with ~150–200 countries are dense.** All countries are shown,
+  like the browser does. A `top_n` option in config would make a
+  leadership-friendly version.
+- **UIS footnotes (`*_METADATA.csv`) are not used.** Only magnitude and
+  qualifier codes reach the workbook.
+- **Naming:** `00-setup.R` uses a hyphen, the pipeline steps use underscores.

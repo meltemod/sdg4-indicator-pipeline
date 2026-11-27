@@ -1,0 +1,604 @@
+view,indicator_id,indicator_label,unit,geo_type,geo_code,geo_name,year,value,magnitude,qualifier
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,AFG,Afghanistan,,,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,ALB,Albania,2024,0.4876199960708618,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,DZA,Algeria,2025,1.420089960098267,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,AND,Andorra,2025,0.2987299859523773,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,AGO,Angola,2023,28.4207706451416,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,AIA,Anguilla,,,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,ATG,Antigua and Barbuda,2023,1.71101264,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,ARG,Argentina,2024,0.7090799808502197,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,ARM,Armenia,2025,1.207980036735535,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,AUS,Australia,2024,0.1243100017309189,,NAT_EST
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,AUT,Austria,2024,1.429589986801147,,NAT_EST
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,AZE,Azerbaijan,2025,1.440979957580566,,NAT_EST
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,BHS,Bahamas,2025,19.96792984008789,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,BHR,Bahrain,2025,3.635299921035767,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,BGD,Bangladesh,2025,6.430741119,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,BRB,Barbados,2025,19.96998023986816,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,BLR,Belarus,2019,4.561140060424805,,NAT_EST
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,BEL,Belgium,2024,1.561480045318604,,NAT_EST
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,BLZ,Belize,2025,10.56050968170166,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,BEN,Benin,2022,9.610210418701172,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,BTN,Bhutan,2024,10.47037172,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,BOL,Bolivia (Plurinational State of),2025,6.084549903869629,,NAT_EST
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,BIH,Bosnia and Herzegovina,2025,2.821739912033081,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,BWA,Botswana,2022,0.535068806,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,BRA,Brazil,2024,2.18720006942749,,NAT_EST
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,VGB,British Virgin Islands,2024,26.96628952026367,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,BRN,Brunei Darussalam,2025,3.47538166,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,BGR,Bulgaria,2024,5.902550220489502,,NAT_EST
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,BFA,Burkina Faso,2025,28.1147403717041,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,BDI,Burundi,2025,26.46526908874512,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,CPV,Cabo Verde,2023,12.43735027313232,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,KHM,Cambodia,2025,11.8943693,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,CMR,Cameroon,2025,3.586390018463135,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,CAN,Canada,2024,3.781199932098389,,NAT_EST
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,CYM,Cayman Islands,2025,3.054769992828369,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,CAF,Central African Republic,2017,10.21024051,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,TCD,Chad,2025,25.60028076171875,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,CHL,Chile,2024,3.263309955596924,,NAT_EST
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,HKG,"China, Hong Kong Special Administrative Region",2025,1.32941997051239,,UIS_EST
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,MAC,"China, Macao Special Administrative Region",2025,8.528539657592773,,NAT_EST
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,COL,Colombia,2024,11.61011028289795,,NAT_EST
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,COM,Comoros,2025,25.09347502,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,COG,Congo,2023,17.07707977294922,,UIS_EST
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,COK,Cook Islands,2024,2.531766575,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,CRI,Costa Rica,2024,4.486070156097412,,NAT_EST
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,HRV,Croatia,2024,1.860200047492981,,NAT_EST
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,CUB,Cuba,2025,6.533689975738525,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,CUW,Curaçao,2023,3.417049884796143,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,CYP,Cyprus,2023,0.4250499904155731,,NAT_EST
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,CZE,Czechia,2024,1.61438000202179,,NAT_EST
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,CIV,Côte d'Ivoire,2025,1.822810053825378,,NAT_EST
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,DNK,Denmark,2024,0.8928700089454651,,NAT_EST
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,DMA,Dominica,2025,5.992441965,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,DOM,Dominican Republic,2025,6.288380146026611,,NAT_EST
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,ECU,Ecuador,2025,10.45182037353516,,NAT_EST
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,EGY,Egypt,2024,3.514389991760254,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,SLV,El Salvador,2024,15.2642297744751,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,GNQ,Equatorial Guinea,2015,65.59651947021484,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,ERI,Eritrea,2024,33.7384514,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,EST,Estonia,2024,3.388030052185059,,NAT_EST
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,SWZ,Eswatini,2025,0.9646900296211244,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,ETH,Ethiopia,2025,32.51673628,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,FJI,Fiji,2025,2.474608517,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,FIN,Finland,2024,1.76610004901886,,NAT_EST
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,FRA,France,2024,0.176599994301796,,NAT_EST
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,GAB,Gabon,2019,28.7632999420166,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,GMB,Gambia,2025,16.91053924,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,GEO,Georgia,2025,0.3427900075912476,,NAT_EST
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,DEU,Germany,2024,0.2739000022411346,,NAT_EST
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,GHA,Ghana,2024,4.766910076141357,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,GIB,Gibraltar,2024,1.579900026321411,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,GRC,Greece,2024,0.0739400014281273,,NAT_EST
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,GRD,Grenada,2024,4.940788947,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,GTM,Guatemala,2025,5.009689807891846,,NAT_EST
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,GIN,Guinea,2021,19.44734222,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,GUY,Guyana,2023,17.98015783,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,HTI,Haiti,2025,3.270917554,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,VAT,Holy See,2026,0,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,HND,Honduras,2025,27.80656051635742,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,HUN,Hungary,2024,3.450069904327393,,NAT_EST
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,ISL,Iceland,2024,0.4770799875259399,,NAT_EST
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,IND,India,2026,0.898105664,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,IDN,Indonesia,2026,1.002173595,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,IRN,Iran (Islamic Republic of),2023,0.1028399989008904,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,IRQ,Iraq,2025,13.65472984313965,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,IRL,Ireland,2022,1.812729954719543,,NAT_EST
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,ISR,Israel,2024,3.501029968261719,,NAT_EST
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,ITA,Italy,2024,2.021110057830811,,NAT_EST
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,JAM,Jamaica,2025,9.379449844360352,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,JPN,Japan,2024,0.099930003285408,,NAT_EST
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,JOR,Jordan,2024,1.886199951171875,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,KAZ,Kazakhstan,2026,9.331204671,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,KEN,Kenya,2023,10.55144487,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,KIR,Kiribati,2024,8.709888671,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,KWT,Kuwait,2024,50.78728866577148,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,KGZ,Kyrgyzstan,2026,2.512410825,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,LAO,Lao People's Democratic Republic,2026,10.4618287,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,LVA,Latvia,2024,1.304350018501282,,NAT_EST
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,LBN,Lebanon,2025,23.6590690612793,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,LSO,Lesotho,2025,33.98516346,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,LBR,Liberia,2022,38.25397846,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,LIE,Liechtenstein,2021,0.8247600197792053,,NAT_EST
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,LTU,Lithuania,2024,0.1297000050544739,,NAT_EST
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,LUX,Luxembourg,2024,0.2563799917697906,,NAT_EST
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,MDG,Madagascar,2024,3.40053926,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,MWI,Malawi,2022,2.08900513,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,MYS,Malaysia,2025,12.40819559,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,MDV,Maldives,2025,4.581554088,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,MLI,Mali,2023,34.00782012939453,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,MLT,Malta,2023,2.637789964675903,,NAT_EST
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,MHL,Marshall Islands,2026,0.762161983,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,MRT,Mauritania,2025,33.89532852172852,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,MUS,Mauritius,2025,0.5694900155067444,,NAT_EST
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,MEX,Mexico,2024,0.3632400035858154,,NAT_EST
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,FSM,Micronesia (Federated States of),2025,35.67407824,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,MNG,Mongolia,2025,7.308953629,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,MNE,Montenegro,2023,0.2183299958705902,,NAT_EST
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,MSR,Montserrat,2023,6.685808039,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,MAR,Morocco,2021,0.4710400104522705,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,MOZ,Mozambique,2022,0.999970018863678,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,MMR,Myanmar,,,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,NAM,Namibia,2025,0.919623392,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,NPL,Nepal,2026,2.46314949,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,NLD,Netherlands (Kingdom of the),2024,0.5285400152206421,,NAT_EST
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,NZL,New Zealand,2024,2.624520063400269,,NAT_EST
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,NIC,Nicaragua,2023,6.6563401222229,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,NER,Niger,2025,41.60956954956055,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,NGA,Nigeria,2023,24.31870079040527,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,NIU,Niue,2025,11.90211346,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,MKD,North Macedonia,2023,3.790940046310425,,NAT_EST
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,NOR,Norway,2024,1.377830028533936,,NAT_EST
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,OMN,Oman,2025,5.105309963226318,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,PAK,Pakistan,2025,13.46020167,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,PLW,Palau,2025,2.1078288,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,PSE,Palestine,2025,28.4810791015625,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,PAN,Panama,2025,3.114409923553467,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,PNG,Papua New Guinea,2024,1.589383622,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,PRY,Paraguay,2025,14.0049295425415,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,PER,Peru,2018,0.2869600057601929,,NAT_EST
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,PHL,Philippines,2025,12.80991084,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,POL,Poland,2024,0.091669999063015,,NAT_EST
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,PRT,Portugal,2023,0.5081700086593628,,NAT_EST
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,PRI,Puerto Rico,2024,13.25226447,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,QAT,Qatar,2025,1.50220000743866,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,KOR,Republic of Korea,2024,0.0556599982082844,,NAT_EST
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,MDA,Republic of Moldova,2020,0.7965099811553955,,NAT_EST
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,ROU,Romania,2024,16.10865020751953,,NAT_EST
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,RUS,Russian Federation,2023,4.935219764709473,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,RWA,Rwanda,2025,0.2128099948167801,,NAT_EST
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,KNA,Saint Kitts and Nevis,,,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,LCA,Saint Lucia,2025,8.445624064,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,VCT,Saint Vincent and the Grenadines,2017,0.590386994,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,WSM,Samoa,2025,6.924278359,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,SMR,San Marino,2025,6.506360054016113,,NAT_EST
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,STP,Sao Tome and Principe,2025,14.41510963439941,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,SAU,Saudi Arabia,2025,0.5934699773788452,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,SEN,Senegal,2025,23.26330947875977,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,SRB,Serbia,2025,2.564860105514526,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,SYC,Seychelles,2025,3.356930017471313,,NAT_EST
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,SLE,Sierra Leone,2015,0.888260006904602,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,SGP,Singapore,2024,0.0940999984741211,,NAT_EST
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,SXM,Sint Maarten (Dutch part),2023,6.781330108642578,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,SVK,Slovakia,2024,1.064020037651062,,NAT_EST
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,SVN,Slovenia,2024,1.366209983825684,,NAT_EST
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,SLB,Solomon Islands,2024,30.13911634,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,ZAF,South Africa,2024,5.820109844207764,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,SSD,South Sudan,2024,64.73468017578125,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,ESP,Spain,2024,1.237400054931641,,NAT_EST
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,LKA,Sri Lanka,2025,7.555395156,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,SDN,Sudan,2019,43.83784103393555,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,SUR,Suriname,2024,16.2221506,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,SWE,Sweden,2024,0.5704399943351746,,NAT_EST
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,CHE,Switzerland,2024,0.1430200040340424,,NAT_EST
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,SYR,Syrian Arab Republic,2024,21.80503082275391,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,TJK,Tajikistan,2017,4.150829792022705,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,THA,Thailand,2026,3.520297682,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,TLS,Timor-Leste,2023,6.877289772033691,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,TGO,Togo,2025,4.116849899291992,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,TKL,Tokelau,2026,33.07086614,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,TON,Tonga,2022,2.280409747,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,TTO,Trinidad and Tobago,2025,11.6769827,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,TUN,Tunisia,2026,0.2546699941158295,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,TKM,Turkmenistan,2025,7.072999954223633,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,TCA,Turks and Caicos Islands,2024,0.133396409,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,TUV,Tuvalu,2024,0.53663112,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,TUR,Türkiye,2024,0.0190399996936321,,NAT_EST
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,UGA,Uganda,2017,4.725825134,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,UKR,Ukraine,2025,19.32842063903809,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,ARE,United Arab Emirates,2025,0.0207000002264977,,NAT_EST
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,GBR,United Kingdom of Great Britain and Northern Ireland,2024,0.7871500253677368,,NAT_EST
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,TZA,United Republic of Tanzania,2024,16.36663315,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,USA,United States of America,2024,5.006460189819336,,NAT_EST
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,URY,Uruguay,2024,3.017539978027344,,NAT_EST
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,UZB,Uzbekistan,2026,0.094355625,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,VUT,Vanuatu,2025,2.126038798,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,VEN,Venezuela (Bolivarian Republic of),2023,0.5537099838256836,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,VNM,Viet Nam,2024,1.542892051,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,YEM,Yemen,2016,30.62112045288086,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,ZMB,Zambia,2024,3.514620065689087,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,ZWE,Zimbabwe,2025,12.6190635,,
+out_of_school,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",percent,country,NRU,the Republic of Naoero,2025,6.596452328,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,AFG,Afghanistan,,,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,ALB,Albania,2023,5.448100090026855,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,DZA,Algeria,2024,0.205939993262291,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,AND,Andorra,2025,2.084569931030273,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,AGO,Angola,2023,42.22560119628906,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,AIA,Anguilla,2023,12.89398002624512,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,ATG,Antigua and Barbuda,2025,1.833582618,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,ARG,Argentina,2024,0.5734800100326538,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,ARM,Armenia,2025,2.753910064697266,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,AUS,Australia,2024,1.852010011672974,,NAT_EST
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,AUT,Austria,2024,1.225600004196167,,NAT_EST
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,AZE,Azerbaijan,2025,4.389989852905273,,NAT_EST
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,BHS,Bahamas,2025,20.20816040039063,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,BHR,Bahrain,2025,2.817359924316406,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,BGD,Bangladesh,2025,22.03330561,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,BRB,Barbados,2025,4.438429832458496,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,BLR,Belarus,2019,1.627060055732727,,NAT_EST
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,BEL,Belgium,2024,1.531820058822632,,NAT_EST
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,BLZ,Belize,2025,8.440010070800781,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,BEN,Benin,2022,47.16640090942383,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,BTN,Bhutan,2024,9.982635539,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,BOL,Bolivia (Plurinational State of),2025,8.5392303466796875,,NAT_EST
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,BIH,Bosnia and Herzegovina,2025,0.7620300054550171,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,BWA,Botswana,2022,9.177197989,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,BRA,Brazil,2024,3.572350025177002,,NAT_EST
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,VGB,British Virgin Islands,2024,16.22397994995117,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,BRN,Brunei Darussalam,2025,1.616242006,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,BGR,Bulgaria,2024,6.812540054321289,,NAT_EST
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,BFA,Burkina Faso,2025,57.46649169921875,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,BDI,Burundi,2025,37.08562088012695,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,CPV,Cabo Verde,2023,13.40097999572754,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,KHM,Cambodia,2025,3.156081239,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,CMR,Cameroon,2023,47.09843826293945,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,CAN,Canada,2024,0.3411799967288971,,NAT_EST
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,CYM,Cayman Islands,2025,0.0215000007301569,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,CAF,Central African Republic,2017,55.49146414,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,TCD,Chad,2025,58.72946166992188,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,CHL,Chile,2024,1.005620002746582,,NAT_EST
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,HKG,"China, Hong Kong Special Administrative Region",2025,0.9826700091362,,UIS_EST
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,MAC,"China, Macao Special Administrative Region",2025,3.874320030212402,,NAT_EST
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,COL,Colombia,2024,13.18177032470703,,NAT_EST
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,COM,Comoros,2025,30.10671404,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,COG,Congo,2018,30.17733398,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,COK,Cook Islands,2025,1.21725452,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,CRI,Costa Rica,2024,7.572229862213135,,UIS_EST
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,HRV,Croatia,2017,1.460749983787537,,NAT_EST
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,CUB,Cuba,2025,10.45429992675781,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,CUW,Curaçao,2020,0.925130009651184,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,CYP,Cyprus,2023,0.0385899990797043,,NAT_EST
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,CZE,Czechia,2024,1.230290055274963,,NAT_EST
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,CIV,Côte d'Ivoire,2025,15.48120021820068,,NAT_EST
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,DNK,Denmark,2024,1.068040013313293,,NAT_EST
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,DMA,Dominica,2025,7.546439628,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,DOM,Dominican Republic,2025,6.834660053253174,,NAT_EST
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,ECU,Ecuador,2025,6.539169788360596,,NAT_EST
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,EGY,Egypt,2024,6.642630100250244,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,SLV,El Salvador,2024,21.87124061584473,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,GNQ,Equatorial Guinea,2015,63.47806422,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,ERI,Eritrea,2024,34.12713619,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,EST,Estonia,2024,2.615580081939697,,NAT_EST
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,SWZ,Eswatini,2017,5.421602787,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,ETH,Ethiopia,2025,66.13235888,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,FJI,Fiji,2023,2.845184948,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,FIN,Finland,2024,1.275670051574707,,NAT_EST
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,FRA,France,2024,0.1518999934196472,,NAT_EST
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,GAB,Gabon,2019,35.75714874267578,,UIS_EST
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,GMB,Gambia,2025,14.25973886,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,GEO,Georgia,2021,0.608681804,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,DEU,Germany,2024,0.3944700062274933,,NAT_EST
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,GHA,Ghana,2024,5.167960166931152,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,GIB,Gibraltar,2021,3.788439989089966,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,GRC,Greece,2024,0.9440500140190125,,NAT_EST
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,GRD,Grenada,2024,13.03271007537842,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,GTM,Guatemala,2024,27.69766998291016,,NAT_EST
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,GIN,Guinea,2021,53.55218452,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,GUY,Guyana,2023,26.67000087,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,HTI,Haiti,2025,11.68636415,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,VAT,Holy See,2026,0,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,HND,Honduras,2025,40.8586311340332,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,HUN,Hungary,2024,2.546459913253784,,NAT_EST
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,ISL,Iceland,2024,0.908930003643036,,NAT_EST
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,IND,India,2026,13.54950324,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,IDN,Indonesia,2026,3.723950374,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,IRN,Iran (Islamic Republic of),2023,7.580039978027344,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,IRQ,Iraq,2025,17.3623104095459,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,IRL,Ireland,2022,0.0552599988877773,,NAT_EST
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,ISR,Israel,2024,3.066210031509399,,NAT_EST
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,ITA,Italy,2024,1.993710041046143,,NAT_EST
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,JAM,Jamaica,2024,33.53491973876953,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,JPN,Japan,2024,0.0166200008243322,,NAT_EST
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,JOR,Jordan,2024,4.257339954376221,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,KAZ,Kazakhstan,2026,3.185969261,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,KEN,Kenya,,,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,KIR,Kiribati,2024,6.210610748,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,KWT,Kuwait,2015,9.129449844360352,,UIS_EST
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,KGZ,Kyrgyzstan,2026,7.152457235,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,LAO,Lao People's Democratic Republic,2026,35.10530755,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,LVA,Latvia,2024,1.616189956665039,,NAT_EST
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,LBN,Lebanon,2025,34.01921081542969,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,LSO,Lesotho,2025,33.32089888,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,LBR,Liberia,2022,44.41980011,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,LIE,Liechtenstein,2021,2.939260005950928,,NAT_EST
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,LTU,Lithuania,2024,0.1204700022935867,,NAT_EST
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,LUX,Luxembourg,2024,1.696900010108948,,NAT_EST
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,MDG,Madagascar,2024,38.75562912,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,MWI,Malawi,2024,25.3274978,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,MYS,Malaysia,2025,17.73491424,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,MDV,Maldives,2025,8.260166725,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,MLI,Mali,2018,56.27634811401367,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,MLT,Malta,2023,1.877290010452271,,NAT_EST
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,MHL,Marshall Islands,2026,0.490462244,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,MRT,Mauritania,2020,51.24076080322266,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,MUS,Mauritius,2025,19.77960014343262,,NAT_EST
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,MEX,Mexico,2024,9.127779960632324,,NAT_EST
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,FSM,Micronesia (Federated States of),2025,31.43451143,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,MNG,Mongolia,2025,3.395608711,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,MNE,Montenegro,2023,0.0545400008559227,,NAT_EST
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,MSR,Montserrat,2023,5.405405405,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,MAR,Morocco,2024,2.305350065231323,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,MOZ,Mozambique,2022,41.12086123,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,MMR,Myanmar,2018,10.57279014587402,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,NAM,Namibia,2025,1.848956784,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,NPL,Nepal,2025,0.676011133,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,NLD,Netherlands (Kingdom of the),2024,0.5687000155448914,,NAT_EST
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,NZL,New Zealand,2024,2.356580018997192,,NAT_EST
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,NIC,Nicaragua,2023,16.5477294921875,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,NER,Niger,2025,81.94657135009766,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,NGA,Nigeria,,,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,NIU,Niue,2025,12.74875622,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,MKD,North Macedonia,,,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,NOR,Norway,2024,0.86913001537323,,NAT_EST
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,OMN,Oman,2025,5.950099945068359,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,PAK,Pakistan,2025,29.37488964,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,PLW,Palau,2025,5.601659751,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,PSE,Palestine,2025,35.64105987548828,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,PAN,Panama,2017,12.04502010345459,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,PNG,Papua New Guinea,2024,29.3246156,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,PRY,Paraguay,2025,15.16909980773926,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,PER,Peru,2020,0.9533500075340272,,UIS_EST
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,PHL,Philippines,2025,13.95570609,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,POL,Poland,2024,0.1510200053453445,,NAT_EST
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,PRT,Portugal,2024,0.5707100033760071,,NAT_EST
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,PRI,Puerto Rico,2024,16.10074163,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,QAT,Qatar,2025,1.22979998588562,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,KOR,Republic of Korea,2024,2.897690057754517,,NAT_EST
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,MDA,Republic of Moldova,2024,0.368223275,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,ROU,Romania,2024,17.09379959106445,,NAT_EST
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,RUS,Russian Federation,2023,0.2746999859809875,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,RWA,Rwanda,2025,0.1387600004673004,,NAT_EST
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,KNA,Saint Kitts and Nevis,2020,5.314231387,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,LCA,Saint Lucia,2025,11.201975,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,VCT,Saint Vincent and the Grenadines,2025,1.718650541,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,WSM,Samoa,2025,2.838892832,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,SMR,San Marino,2025,5.084750175476074,,NAT_EST
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,STP,Sao Tome and Principe,2021,6.148218079,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,SAU,Saudi Arabia,2025,0.4508500099182129,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,SEN,Senegal,2025,62.70547103881836,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,SRB,Serbia,2025,4.135749816894531,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,SYC,Seychelles,2025,2.936409950256348,,NAT_EST
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,SLE,Sierra Leone,2025,4.912420356,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,SGP,Singapore,2024,1.595960021018982,,NAT_EST
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,SXM,Sint Maarten (Dutch part),,,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,SVK,Slovakia,2024,1.339300036430359,,NAT_EST
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,SVN,Slovenia,2024,1.33089005947113,,NAT_EST
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,SLB,Solomon Islands,2024,30.38255906,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,ZAF,South Africa,2024,11.04253959655762,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,SSD,South Sudan,2015,56.63616943359375,,UIS_EST
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,ESP,Spain,2024,1.785169959068298,,NAT_EST
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,LKA,Sri Lanka,2025,7.038640666,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,SDN,Sudan,2019,35.37892913818359,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,SUR,Suriname,2024,39.63591928,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,SWE,Sweden,2024,0.3909499943256378,,NAT_EST
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,CHE,Switzerland,2024,0.1070699989795685,,NAT_EST
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,SYR,Syrian Arab Republic,2024,51.30873107910156,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,TJK,Tajikistan,,,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,THA,Thailand,2026,0.452229514,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,TLS,Timor-Leste,2020,13.48186528,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,TGO,Togo,2023,27.44783020019531,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,TKL,Tokelau,2026,42.35294118,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,TON,Tonga,2025,3.006999901,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,TTO,Trinidad and Tobago,2025,2.071235743,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,TUN,Tunisia,,,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,TKM,Turkmenistan,2025,2.730590105056763,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,TCA,Turks and Caicos Islands,2023,10.48024303,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,TUV,Tuvalu,2024,12.10494385,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,TUR,Türkiye,2024,0.0119799999520183,,NAT_EST
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,UGA,Uganda,2017,46.93646373,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,UKR,Ukraine,2025,13.59854984283447,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,ARE,United Arab Emirates,2025,0.0108099998906255,,NAT_EST
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,GBR,United Kingdom of Great Britain and Northern Ireland,2024,1.501469969749451,,NAT_EST
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,TZA,United Republic of Tanzania,2024,50.99908465,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,USA,United States of America,2024,0.5377699732780457,,NAT_EST
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,URY,Uruguay,2023,0.1346399933099747,,NAT_EST
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,UZB,Uzbekistan,2026,4.67758248,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,VUT,Vanuatu,2025,6.17321047,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,VEN,Venezuela (Bolivarian Republic of),2022,1.141589999198914,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,VNM,Viet Nam,2025,1.800210727,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,YEM,Yemen,2016,39.69226837158203,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,ZMB,Zambia,2024,12.35204982757568,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,ZWE,Zimbabwe,2025,14.79047039,,
+out_of_school,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",percent,country,NRU,the Republic of Naoero,2025,2.78004906,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,AFG,Afghanistan,2018,54.51269149780273,,UIS_EST
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,ALB,Albania,2024,1.277609944343567,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,DZA,Algeria,2025,14.95946025848389,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,AND,Andorra,2025,9.332579612731934,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,AGO,Angola,2023,51.41857147216797,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,AIA,Anguilla,2023,24.78631973266602,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,ATG,Antigua and Barbuda,2025,5.646890636,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,ARG,Argentina,2024,5.611979961395264,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,ARM,Armenia,2025,12.12584972381592,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,AUS,Australia,2024,6.070280075073242,,NAT_EST
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,AUT,Austria,2024,7.900929927825928,,NAT_EST
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,AZE,Azerbaijan,2025,16.01375007629395,,NAT_EST
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,BHS,Bahamas,2025,24.74142074584961,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,BHR,Bahrain,2025,1.025099992752075,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,BGD,Bangladesh,2025,44.96260742,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,BRB,Barbados,2025,3.136120080947876,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,BLR,Belarus,2019,3.079760074615479,,NAT_EST
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,BEL,Belgium,2024,1.825029969215393,,NAT_EST
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,BLZ,Belize,2025,32.62649917602539,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,BEN,Benin,2022,67.93650817871094,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,BTN,Bhutan,2024,21.38018313,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,BOL,Bolivia (Plurinational State of),2025,13.27180957794189,,NAT_EST
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,BIH,Bosnia and Herzegovina,2025,20.31866073608398,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,BWA,Botswana,2022,31.10272113,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,BRA,Brazil,2024,7.601160049438477,,NAT_EST
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,VGB,British Virgin Islands,2024,18,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,BRN,Brunei Darussalam,2025,29.27017138,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,BGR,Bulgaria,2024,11.77707958221436,,NAT_EST
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,BFA,Burkina Faso,2025,76.22442626953125,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,BDI,Burundi,2025,70.63323974609375,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,CPV,Cabo Verde,2023,19.31428909301758,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,KHM,Cambodia,2025,58.87036228,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,CMR,Cameroon,2023,64.57649230957031,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,CAN,Canada,2024,13.18062019348145,,NAT_EST
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,CYM,Cayman Islands,2025,10,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,CAF,Central African Republic,2017,82.60720373,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,TCD,Chad,2025,75.9197998046875,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,CHL,Chile,2024,2.603070020675659,,NAT_EST
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,HKG,"China, Hong Kong Special Administrative Region",2024,1.017570018768311,,UIS_EST
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,MAC,"China, Macao Special Administrative Region",2025,5.807449817657471,,NAT_EST
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,COL,Colombia,2024,23.05681037902832,,NAT_EST
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,COM,Comoros,2025,45.79641157,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,COG,Congo,2018,41.2191441,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,COK,Cook Islands,2025,28.16537468,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,CRI,Costa Rica,2024,11.0329704284668,,UIS_EST
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,HRV,Croatia,2024,7.401780128479004,,NAT_EST
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,CUB,Cuba,2025,25.48287010192871,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,CUW,Curaçao,2023,14.83390998840332,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,CYP,Cyprus,2024,1.437849998474121,,NAT_EST
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,CZE,Czechia,2024,7.631199836730957,,NAT_EST
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,CIV,Côte d'Ivoire,2025,36.74919128417969,,NAT_EST
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,DNK,Denmark,2024,8.767430305480957,,NAT_EST
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,DMA,Dominica,2025,15.70294785,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,DOM,Dominican Republic,2025,32.49739074707031,,NAT_EST
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,ECU,Ecuador,2025,21.02136993408203,,NAT_EST
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,EGY,Egypt,2024,30.03125,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,SLV,El Salvador,2024,37.01549911499023,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,GNQ,Equatorial Guinea,2015,81.04756196,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,ERI,Eritrea,2024,41.51124695,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,EST,Estonia,2024,10.02950000762939,,NAT_EST
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,SWZ,Eswatini,2018,18.69998085,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,ETH,Ethiopia,2025,81.85026343,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,FJI,Fiji,2025,16.28469006,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,FIN,Finland,2024,5.339849948883057,,NAT_EST
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,FRA,France,2024,3.964119911193848,,NAT_EST
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,GAB,Gabon,2019,45.69367980957031,,UIS_EST
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,GMB,Gambia,2025,42.7086699,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,GEO,Georgia,2023,0.8507599830627441,,NAT_EST
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,DEU,Germany,2024,11.19528007507324,,NAT_EST
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,GHA,Ghana,2024,58.11907958984375,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,GIB,Gibraltar,2024,3.470370054244995,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,GRC,Greece,2024,3.093230009078979,,NAT_EST
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,GRD,Grenada,2025,7.153723921,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,GTM,Guatemala,2024,62.85189819335938,,NAT_EST
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,GIN,Guinea,2021,73.45242321,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,GUY,Guyana,2023,36.6156591,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,HTI,Haiti,2025,43.56557979,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,VAT,Holy See,2026,0,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,HND,Honduras,2025,61.03852844238281,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,HUN,Hungary,2024,5.853189945220947,,NAT_EST
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,ISL,Iceland,2024,6.973130226135254,,NAT_EST
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,IND,India,2026,39.01508314,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,IDN,Indonesia,2026,22.31808185,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,IRN,Iran (Islamic Republic of),2023,22.45334053039551,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,IRQ,Iraq,2025,30.76844024658203,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,IRL,Ireland,2022,0.6478899717330933,,NAT_EST
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,ISR,Israel,2024,4.085899829864502,,NAT_EST
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,ITA,Italy,2024,5.548930168151855,,NAT_EST
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,JAM,Jamaica,2024,13.78886032104492,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,JPN,Japan,2024,2.635950088500977,,NAT_EST
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,JOR,Jordan,2024,17.95712089538574,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,KAZ,Kazakhstan,2026,4.280357721,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,KEN,Kenya,2023,37.61481472,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,KIR,Kiribati,2024,13.22863183,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,KWT,Kuwait,2015,19.70536041259766,,UIS_EST
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,KGZ,Kyrgyzstan,2026,41.43624156,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,LAO,Lao People's Democratic Republic,2026,66.44194389,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,LVA,Latvia,2024,6.477580070495605,,NAT_EST
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,LBN,Lebanon,2025,54.45645904541016,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,LSO,Lesotho,2025,59.44431027,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,LBR,Liberia,2022,46.28454763,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,LIE,Liechtenstein,2021,9.649869918823242,,NAT_EST
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,LTU,Lithuania,2024,4.455949783325195,,NAT_EST
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,LUX,Luxembourg,2024,10.77033042907715,,NAT_EST
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,MDG,Madagascar,2024,69.01524552,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,MWI,Malawi,2024,68.68275532,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,MYS,Malaysia,2025,34.91551788,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,MDV,Maldives,2025,62.08312324,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,MLI,Mali,2018,76.97586822509766,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,MLT,Malta,2023,10.43373966217041,,NAT_EST
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,MHL,Marshall Islands,2026,17.36799786,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,MRT,Mauritania,2020,55.03694152832031,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,MUS,Mauritius,2025,16.26744079589844,,NAT_EST
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,MEX,Mexico,2024,28.03276062011719,,NAT_EST
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,FSM,Micronesia (Federated States of),2025,46.68627245,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,MNG,Mongolia,2025,4.930069741,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,MNE,Montenegro,2023,13.31322002410889,,NAT_EST
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,MSR,Montserrat,2023,16.32653061,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,MAR,Morocco,2024,18.87464904785156,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,MOZ,Mozambique,2022,56.96750749,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,MMR,Myanmar,2018,36.13972091674805,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,NAM,Namibia,2025,17.68983881,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,NPL,Nepal,2026,10.5638524,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,NLD,Netherlands (Kingdom of the),2024,2.020179986953735,,NAT_EST
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,NZL,New Zealand,2024,5.624110221862793,,NAT_EST
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,NIC,Nicaragua,2023,37.01942825317383,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,NER,Niger,2025,88.27400207519531,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,NGA,Nigeria,,,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,NIU,Niue,2025,19.19191919,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,MKD,North Macedonia,,,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,NOR,Norway,2024,7.570059776306152,,NAT_EST
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,OMN,Oman,2025,21.92028045654297,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,PAK,Pakistan,2025,51.63428112,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,PLW,Palau,2025,14.96388029,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,PSE,Palestine,2025,31.76351928710938,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,PAN,Panama,2015,32.04412841796875,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,PNG,Papua New Guinea,2024,60.09812473,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,PRY,Paraguay,2025,26.29784965515137,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,PER,Peru,2024,1.260139942169189,,NAT_EST
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,PHL,Philippines,2025,23.71357025,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,POL,Poland,2024,0.7309899926185608,,NAT_EST
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,PRT,Portugal,2024,0.2067800015211105,,NAT_EST
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,PRI,Puerto Rico,2024,25.8975221,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,QAT,Qatar,2025,12.29732036590576,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,KOR,Republic of Korea,2024,4.502920150756836,,NAT_EST
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,MDA,Republic of Moldova,2024,45.2276944,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,ROU,Romania,2024,27.22982025146484,,NAT_EST
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,RUS,Russian Federation,2023,44.84107971191406,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,RWA,Rwanda,2025,29.15735054016113,,NAT_EST
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,KNA,Saint Kitts and Nevis,2024,3.580318662,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,LCA,Saint Lucia,2025,27.26360169,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,VCT,Saint Vincent and the Grenadines,2025,2.741472745,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,WSM,Samoa,2025,28.02233111,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,SMR,San Marino,2025,59.39933013916016,,NAT_EST
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,STP,Sao Tome and Principe,2021,27.0258006,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,SAU,Saudi Arabia,2025,0.3803699910640717,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,SEN,Senegal,2025,79.93656921386719,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,SRB,Serbia,2025,26.34296989440918,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,SYC,Seychelles,2025,21.05688095092773,,NAT_EST
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,SLE,Sierra Leone,2025,30.80931451,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,SGP,Singapore,2024,0.0383699983358383,,NAT_EST
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,SXM,Sint Maarten (Dutch part),,,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,SVK,Slovakia,2024,7.425459861755371,,NAT_EST
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,SVN,Slovenia,2024,3.251199960708618,,NAT_EST
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,SLB,Solomon Islands,2023,36.05184447,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,ZAF,South Africa,2024,13.43117046356201,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,SSD,South Sudan,2015,61.27033996582031,,UIS_EST
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,ESP,Spain,2024,5.568940162658691,,NAT_EST
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,LKA,Sri Lanka,2025,29.26934627,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,SDN,Sudan,2019,67.38435363769531,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,SUR,Suriname,2024,56.00234512,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,SWE,Sweden,2024,2.998059988021851,,NAT_EST
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,CHE,Switzerland,2024,9.03159999847412,,NAT_EST
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,SYR,Syrian Arab Republic,2024,72.71885681152344,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,TJK,Tajikistan,,,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,THA,Thailand,2026,16.74255716,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,TLS,Timor-Leste,2020,26.58537614,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,TGO,Togo,2023,54.85916900634766,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,TKL,Tokelau,2026,58.38926174,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,TON,Tonga,2025,39.92046078,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,TTO,Trinidad and Tobago,2025,7.683707177,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,TUN,Tunisia,,,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,TKM,Turkmenistan,2025,11.27260971069336,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,TCA,Turks and Caicos Islands,2024,19.9251637,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,TUV,Tuvalu,2025,20.5579798,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,TUR,Türkiye,2024,6.627079963684082,,NAT_EST
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,UGA,Uganda,2017,74.02086308,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,UKR,Ukraine,2025,18.23273086547852,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,ARE,United Arab Emirates,2025,0.2910900115966797,,NAT_EST
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,GBR,United Kingdom of Great Britain and Northern Ireland,2024,5.984720230102539,,NAT_EST
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,TZA,United Republic of Tanzania,2024,85.15381153,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,USA,United States of America,2024,5.936110019683838,,NAT_EST
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,URY,Uruguay,2023,8.62343978881836,,NAT_EST
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,UZB,Uzbekistan,2026,4.767464231,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,VUT,Vanuatu,2025,31.84348902,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,VEN,Venezuela (Bolivarian Republic of),2024,22.03038024902344,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,VNM,Viet Nam,2022,13.88888623,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,YEM,Yemen,2016,62.90900039672852,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,ZMB,Zambia,2024,65.592987060546875,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,ZWE,Zimbabwe,2025,51.35288468,,
+out_of_school,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",percent,country,NRU,the Republic of Naoero,2025,11.84210526,,

@@ -20,3 +20,73 @@ paths:
 period:
   start_year: 2020
   end_year: 2024
+
+# ---- Data source: UIS Bulk Data Download Service (BDDS) -----------------
+# Pinned to one release so a run is reproducible. To move to a newer UIS
+# release, change `release` and re-run from step 01.
+bdds:
+  release: "202611"
+  base_url: "https://download.uis.unesco.org/bdds"
+  datasets: [SDG, OPRI]
+
+# ---- Views: one Excel workbook each -------------------------------------
+# Everything leadership might ask to change lives here, not in the Excel
+# file. Edit, re-run step 03 (or the whole pipeline), and the workbook is
+# rebuilt. Manual edits to the workbook are overwritten.
+#
+#   geo: countries            -> all countries (national data file)
+#   geo: {regions: [...]}     -> named regions, exactly as in *_REGION.csv
+#   years: {from, to, pick}   -> pick: latest = most recent value per
+#                                country within [from, to]; pick: all = every year
+#   chart.type                -> bar | line
+#   chart.sort                -> desc | asc | none   (bar charts)
+views:
+  out_of_school:
+    title: "Out-of-school rate, by level of education (%)"
+    source_url: "https://databrowser.uis.unesco.org/view#indicatorPaths=UIS-SDG4Monitoring%3A0%3AROFST.1.CP%2CUIS-SDG4Monitoring%3A0%3AROFST.3.CP%2CUIS-SDG4Monitoring%3A0%3AROFST.2.CP&geoMode=countries&view=bar"
+    indicators: [ROFST.1.CP, ROFST.2.CP, ROFST.3.CP]
+    geo: countries
+    years: {from: 2015, to: 2026, pick: latest}
+    chart:
+      type: bar
+      indicator: ROFST.1.CP
+      title: "Out-of-school rate, primary school age (%), latest year"
+      sort: desc
+      color: "#1F6FB2"
+
+  completion_parity:
+    title: "Completion rate, adjusted location parity index (rural/urban)"
+    source_url: "https://databrowser.uis.unesco.org/view#indicatorPaths=UIS-SDG4Monitoring%3A0%3ACR.1.LPIA%2CUIS-SDG4Monitoring%3A0%3ACR.2.LPIA%2CUIS-SDG4Monitoring%3A0%3ACR.3.LPIA&geoMode=countries&view=bar"
+    indicators: [CR.1.LPIA, CR.2.LPIA, CR.3.LPIA]
+    geo: countries
+    years: {from: 2015, to: 2026, pick: latest}
+    chart:
+      type: bar
+      indicator: CR.2.LPIA
+      title: "Completion rate parity (rural/urban), lower secondary, latest year"
+      sort: desc
+      color: "#2E8B57"
+
+  adult_literacy:
+    title: "Adult literacy (15+): rate and illiterate population"
+    source_url: "https://databrowser.uis.unesco.org/view#indicatorPaths=UIS-SDG4Monitoring%3A0%3ALR.AG15T99%2CUIS-EducationOPRI%3A0%3AILLPOP.AG15T99&geoMode=regions&years=2010%2C2022&view=line"
+    indicators: [LR.AG15T99, ILLPOP.AG15T99]
+    geo:
+      regions: ["SDG: Sub-Saharan Africa", "SDG: World", "SDG: Central and Southern Asia"]
+    years: {from: 2010, to: 2022, pick: all}
+    chart:
+      type: line
+      indicator: ILLPOP.AG15T99
+      title: "Adult illiterate population, 15+ years (number)"
+
+# ---- Validation thresholds (step 02) ------------------------------------
+validation:
+  parity_index_bounds: [0, 2]        # adjusted parity indices (LPIA) are bounded to [0, 2]
+                                     # by construction; outside = error. Low values inside
+                                     # the bounds are real inequality, not bad data.
+  max_yoy_change_pct: 15             # year-on-year jump (%) flagged in time series
+  flag_colors:                       # cell fill in the Excel Data sheet
+    error: "#F4B6B6"
+    warning: "#FCE4A8"
+    info: "#DDEBF7"
+    missing: "#E7E6E6"

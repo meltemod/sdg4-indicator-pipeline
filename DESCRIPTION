@@ -16,3 +16,11 @@ Description: Declares this project's R package dependencies. renv is
         yaml
 Depends:
     R (>= 4.6)
+Imports:
+    readr,
+    dplyr,
+    tidyr,
+    yaml,
+    openxlsx2,
+    mschart,
+    officer
